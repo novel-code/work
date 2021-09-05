@@ -1,0 +1,67 @@
+@import url("https://fonts.googleapis.com/css2?family=PT+Sans&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "PT Sans", sans-serif;
+}
+
+body {
+  background-image: url(demo.jpg);
+  /* background-color: #cccccc; */
+  /* height: 500px; */
+  background-position: center;
+  /* background-repeat: no-repeat; */
+  background-size: cover;
+  /* position: relative; */
+}
+
+form {
+  margin-top: 7%;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+  border-radius: 15px;
+  background: linear-gradient(
+    to right bottom,
+    rgba(4, 255, 138, 0.219),
+    rgba(195, 0, 255, 0.219)
+  );
+  border: solid 1px rgba(255, 255, 255, 0.3);
+  backdrop-filter: blur(5px);
+}
+
+form input {
+  background: rgba(4, 255, 138, 0);
+  border: none;
+  outline: none;
+  border-bottom: solid 2px rgb(255, 255, 255);
+  width: 100%;
+  padding-bottom: 1%;
+}
+
+.nameInput {
+  background: none;
+  border: none;
+  outline: none;
+  border-bottom: solid 2px rgb(255, 255, 255);
+}
+
+form input:focus {
+  border-bottom: solid 2px rgb(0, 0, 0);
+  transition: 0.4s;
+}
+
+.optionInput {
+  background: none;
+  border: none;
+  border-bottom: solid 2px white;
+  padding-bottom: 1%;
+  width: 100%;
+}
+
+.optionInput:focus {
+  border-bottom: solid 2px black;
+  transition: 0.4s;
+}
